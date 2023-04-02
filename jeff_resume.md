@@ -1,3 +1,10 @@
+---
+title: "Jeff Thomas Resume"
+permalink: "/resume/"
+layout: page
+---
+
+
 # Jeff Thomas
 Trade4huskers@hotmail.com
 
