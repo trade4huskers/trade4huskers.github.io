@@ -13,6 +13,7 @@ Hello!  I am a data enthusiast and have worked with data in some facet for over 
  - Jupyter Notebook
  - Python
  - Pandas
+ - Data Frames
  - Numpy
  - File reading and writing (CSV, TXT, etc.)
  - Microsoft Excel
