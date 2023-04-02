@@ -25,3 +25,6 @@ Hello!  I am a data enthusiast and have worked with data in some facet for over 
  - Machine Learning
  - Data Visualization
 
+![Jeff logo](images/JeffT.jpg)
+
+
