@@ -19,7 +19,7 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "aboutme.md", title: "About Me"}
   - {file: "projects.html", title: "Projects"}
-  - {embed src="Jeff_Resume.pdf" type="application/pdf"/, title: "Resume"}
+  - {file: "jeff_resume.md", title: "Resume"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:trade4huskers@hotmail.com"}
