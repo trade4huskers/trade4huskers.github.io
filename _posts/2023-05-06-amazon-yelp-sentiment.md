@@ -90,7 +90,7 @@ and more but this is far from a standalone methodology at this point.
 # Video Link
 For more details about our project, please check out our video!
 <br/>
-https://www.youtube.com/watch?v=K7zAx8Q-d3Q
+[Project 1 - Sentiment Analysis](https://www.youtube.com/watch?v=K7zAx8Q-d3Q)
 
 
 
