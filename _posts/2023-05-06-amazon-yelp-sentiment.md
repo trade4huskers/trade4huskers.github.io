@@ -1,3 +1,8 @@
+---
+title: "Amazon and Yelp Reviews Using Sentiment Analysis"
+layout: post
+---
+
 # Project 1
 ## AMAZON AND YELP REVIEWS USING SENTIMENT ANALYSIS
 ### DSC450 Applied Data Science
