@@ -4,13 +4,14 @@ layout: post
 ---
 For Project 1, we have chosen to utilize Yelp and Amazon review data from Kaggle that will be used to analyze the sentiment of the review responses to determine whether the review is overall positive neutral or negative. Our overall business problem is to determine if customers of restaurants and purchased merchandise are more likely to post a review over a positive experience or a negative experience. Overall, between the Amazon and Yelp data, we found the majority of people who post restaurant and merchandise reviews are doing so because they had an overall positive experience.
 
+
 # Project 1
 ## AMAZON AND YELP REVIEWS USING SENTIMENT ANALYSIS
-### DSC450 Applied Data Science
-### Bellevue University
-#### Wrangler: Jeff Thomas
-#### Scientist: Jerock Kalala
-#### Presenter: Victoria Sukar
+DSC450 Applied Data Science
+Bellevue University
+Wrangler: Jeff Thomas
+Scientist: Jerock Kalala
+Presenter: Victoria Sukar
 
 # INTRODUCTION
 For Project 1, we have chosen to utilize Yelp and Amazon review data from Kaggle that will be used to analyze the 
