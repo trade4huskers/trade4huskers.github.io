@@ -62,6 +62,81 @@ Analyze the data
 - Determine the highest negative sentiment review 
 - Visualize the data results using something like seaborn
 
+# The Code
+
+```python
+# Read in files
+df = pd.read_csv("Cleaned_Amazon_Fine_Food_Reviews.csv")
+df2 = pd.read_csv("Cleaned_yelp.csv")
+
+# Merge
+df_merged = df.merge(df2, how='outer')
+
+#Transform
+df_merged['Text'] = df_merged['Text'].astype(str).str.lower()
+regexp = RegexpTokenizer('\w+')
+df_merged['Text_Token']=df_merged['Text'].apply(regexp.tokenize)
+
+# Remove Stopwords
+
+stopwords = nltk.corpus.stopwords.words("english")
+
+df_merged['Text'] = df_merged['Text'].apply(lambda x: ' '.join([word for word in x.split() if word not in (stop_words)]))
+df_merged['Text_Token'] = df_merged['Text_Token'].apply(lambda x: [item for item in x if item not in stopwords])
+
+# Format to string (add Text_String)
+
+df_merged['Text_String'] = df_merged['Text_Token'].apply(lambda x: ' '.join([item for item in x if len(item)>2]))
+df_merged[['Text', 'Text_Token', 'Text_String']].head()
+
+# Create a list of all words and tokenize
+
+all_words = ' '.join([word for word in df_merged['Text_String']])
+tokenized_words = nltk.tokenize.word_tokenize(all_words)
+
+# Create a frequency distribution
+
+fdist = FreqDist(tokenized_words)
+df_merged['Text_String_Fdist'] = df_merged['Text_Token'].apply(lambda x: ' '.join([item for item in x if fdist[item] >= 1]))
+df_merged[['Text', 'Text_Token', 'Text_String', 'Text_String_Fdist']].head()
+
+# Lemmatization
+
+wordnet_lem = WordNetLemmatizer()
+
+df_merged['Text_String_Lem'] = df_merged['Text_String_Fdist'].apply(wordnet_lem.lemmatize)
+
+# Confirm columns are equal
+
+df_merged['is_equal']=(df_merged['Text_String_Fdist'] == df_merged['Text_String_Lem'])
+df_merged.is_equal.value_counts()
+
+# VADER
+
+analyzer = SentimentIntensityAnalyzer()
+df_merged['Polarity_Score'] = df_merged['Text_String_Lem'].apply(lambda x: analyzer.polarity_scores(x))
+
+# Change data structure - add scores
+
+df_merged = pd.concat(
+    [df_merged.drop(['Polarity_Score'], axis=1), 
+     df_merged['Polarity_Score'].apply(pd.Series)], axis=1)
+
+# Create new variable with sentiment types
+
+df_merged['Sentiment'] = df_merged['compound'].apply(lambda x: 'positive' if x >0 else 'neutral' if x==0 else 'negative')
+
+# Analyze the Sentiment Data Results
+
+df_merged.loc[df_merged['compound'].idxmax()].values
+
+# Determine the highest negative sentiment review
+
+df_merged.loc[df_merged['compound'].idxmin()].values
+
+}
+```
+
 # RESULTS
 After utilizing both the Amazon fine food reviews and Yelp data, we found that the majority of individuals that post 
 reviews do so because they had a positive experience. We believe this is far more common practice because if you 
