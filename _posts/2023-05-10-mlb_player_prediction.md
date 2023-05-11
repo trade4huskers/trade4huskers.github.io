@@ -38,7 +38,6 @@ Machine Learning
 - Hyperparameter tuning with Grid Search CV
 
 # The Code
-# The Code
 
 ```python
 # Import all necessary libraries
