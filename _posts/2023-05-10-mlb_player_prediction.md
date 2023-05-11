@@ -328,16 +328,16 @@ The topic of predicting baseball players should be given with care depending on 
 For project 2, we as a team used 4 different MLB datasets pulled from ESPN.com and MLB.com and applied a machine learning model to answer stakeholder questions of predicting the best offensive baseball players.  We use Team statistics to help us find a target of Runs.  We then can apply Runs per game as our target to the player dataset using a machine learning model called Xgboost Regressor, achieving a 90% accuracy score.  We train and test using the 2021 datasets, and then predict using the 2022 datasets.  Our final predictions are successfully validated by comparing runs per game to predicted runs per game.
 
 # REFERENCES
-2021 baseball standings. MLB.com. (n.d.). Retrieved May 2, 2023, from https://www.mlb.com/standings/2021 
-2022 baseball standings. MLB.com. (n.d.). Retrieved May 2, 2023, from https://www.mlb.com/standings/2022 
-ESPN Internet Ventures. (n.d.). 2021 MLB player Batting Stats. ESPN. Retrieved May 2, 2023, from https://www.espn.com/mlb/stats/player/_/season/2021/seasontype/2 
-ESPN Internet Ventures. (n.d.). 2021 MLB team batting stats. ESPN. Retrieved May 2, 2023, from https://www.espn.com/mlb/stats/team/_/season/2021/seasontype/2 
-ESPN Internet Ventures. (n.d.). 2022 MLB player batting stats. ESPN. Retrieved May 2, 2023, from https://www.espn.com/mlb/stats/player/_/season/2022/seasontype/2 
-ESPN Internet Ventures. (n.d.). 2022 MLB team batting postseason stats. ESPN. Retrieved May 2, 2023, from https://www.espn.com/mlb/stats/team/_/season/2022/seasontype/3 
-Goodwin, K. (2021, July 19). A stakeholder interview checklist. Boxes and Arrows. Retrieved May 6, 2023, from https://boxesandarrows.com/a-stakeholder-interview-checklist/ 
-How to know if your machine learning model has good performance: Obviously ai. Data Science without Code. (n.d.). Retrieved May 2, 2023, from https://www.obviously.ai/post/machine-learning-model-performance#:~:text=Good%20accuracy%20in%20machine%20learning,also%20consistent%20with%20industry%20standards. 
-Python API reference. Python API Reference - xgboost 1.7.5 documentation. (n.d.). Retrieved May 5, 2023, from https://xgboost.readthedocs.io/en/stable/python/python_api.html 
-Sklearn.model_selection.GRIDSEARCHCV. scikit. (n.d.). Retrieved May 5, 2023, from https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html 
+2021 baseball standings. MLB.com. (n.d.). Retrieved May 2, 2023, from https://www.mlb.com/standings/2021<br>
+2022 baseball standings. MLB.com. (n.d.). Retrieved May 2, 2023, from https://www.mlb.com/standings/2022<br>
+ESPN Internet Ventures. (n.d.). 2021 MLB player Batting Stats. ESPN. Retrieved May 2, 2023, from https://www.espn.com/mlb/stats/player/_/season/2021/seasontype/2 <br>
+ESPN Internet Ventures. (n.d.). 2021 MLB team batting stats. ESPN. Retrieved May 2, 2023, from https://www.espn.com/mlb/stats/team/_/season/2021/seasontype/2 <br>
+ESPN Internet Ventures. (n.d.). 2022 MLB player batting stats. ESPN. Retrieved May 2, 2023, from https://www.espn.com/mlb/stats/player/_/season/2022/seasontype/2 <br>
+ESPN Internet Ventures. (n.d.). 2022 MLB team batting postseason stats. ESPN. Retrieved May 2, 2023, from https://www.espn.com/mlb/stats/team/_/season/2022/seasontype/3 <br>
+Goodwin, K. (2021, July 19). A stakeholder interview checklist. Boxes and Arrows. Retrieved May 6, 2023, from https://boxesandarrows.com/a-stakeholder-interview-checklist/ <br>
+How to know if your machine learning model has good performance: Obviously ai. Data Science without Code. (n.d.). Retrieved May 2, 2023, from https://www.obviously.ai/post/machine-learning-model-performance#:~:text=Good%20accuracy%20in%20machine%20learning,also%20consistent%20with%20industry%20standards.<br> 
+Python API reference. Python API Reference - xgboost 1.7.5 documentation. (n.d.). Retrieved May 5, 2023, from https://xgboost.readthedocs.io/en/stable/python/python_api.html <br>
+Sklearn.model_selection.GRIDSEARCHCV. scikit. (n.d.). Retrieved May 5, 2023, from https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html <br>
 Yin, T. (n.d.). Successful data science projects: What questions to ask? LinkedIn. Retrieved May 2, 2023, from https://www.linkedin.com/pulse/successful-data-science-projects-what-questions-ask-tiancheng-yin 
 
 # Video Link
