@@ -342,6 +342,10 @@ Yin, T. (n.d.). Successful data science projects: What questions to ask? LinkedI
 
 # Video Link
 
+For more details about our project, please check out our video!
+<br/>
+[Project 2 - MLB Player Prediction](https://www.youtube.com/watch?v=oG7GaFo-j4U)
+
 
 
 
