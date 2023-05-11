@@ -160,7 +160,27 @@ always knowing how emotions will present in the data. Also, things like unaccept
 data collection that help build the sentiment models. (Minty, 2022) 
 Overall, we believe that sentiment analysis in this current climate still requires human interaction and interference. 
 Sentiment analysis models can certainly assist in viewing the broad picture of topics, relations, business schemes 
-and more but this is far from a standalone methodology at this point. 
+and more but this is far from a standalone methodology at this point.
+
+# CONCLUSION
+For project 1, we as a team will pulled 4 different datasets but ended up using 2 as to not have duplicative data 
+relating to Amazon and Yelp reviews which will be used to answer the business question of if incentivizing customers 
+to provide reviews is necessary based on whether or not most people tend to leave reviews because of a positive 
+experience or a negative experience. We will utilize numerous modules, methods and libraries throughout this 
+project and the coding will be completed within Jupyter Notebook using Python language. Seaborn will likely be the 
+library utilized for any charts and graphs relating to the outcome. The results indicated that it is common practice to 
+post a positive review versus a negative review. 
+
+# REFERENCES
+Gifford, D. (2018, May 3). 21 Questions: Understanding Project Stakeholder Expectations. Infoworks® 
+International, Inc. https://infoworks.com/21-questions-understanding-project-stakeholder-expectations/ 
+Minty, D. (2022, May 31). Sentiment Analysis – Treat with a Lot of Caution. Ethics and Insurance. 
+https://www.ethicsandinsurance.info/sentiment-analysis/
+Published. (2019, November 4). Five key questions to ask stakeholders. David Hodder. 
+https://www.davidhodder.com/five-key-questions-to-ask-stakeholders/ 
+SABNIS, O. (2018). Yelp Reviews Dataset. Www.kaggle.com. https://www.kaggle.com/datasets/omkarsabnis/yelpreviews-dataset 
+STANFORD NETWORK ANALYSIS PROJECT. (2017). Amazon Fine Food Reviews. Www.kaggle.com. 
+https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews
 
 # Video Link
 For more details about our project, please check out our video!
