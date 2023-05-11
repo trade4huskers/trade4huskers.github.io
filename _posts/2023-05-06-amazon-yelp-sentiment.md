@@ -173,12 +173,12 @@ post a positive review versus a negative review.
 
 # REFERENCES
 Gifford, D. (2018, May 3). 21 Questions: Understanding Project Stakeholder Expectations. Infoworks® 
-International, Inc. https://infoworks.com/21-questions-understanding-project-stakeholder-expectations/ 
+International, Inc. https://infoworks.com/21-questions-understanding-project-stakeholder-expectations/ <br>
 Minty, D. (2022, May 31). Sentiment Analysis – Treat with a Lot of Caution. Ethics and Insurance. 
-https://www.ethicsandinsurance.info/sentiment-analysis/
+https://www.ethicsandinsurance.info/sentiment-analysis/<br>
 Published. (2019, November 4). Five key questions to ask stakeholders. David Hodder. 
-https://www.davidhodder.com/five-key-questions-to-ask-stakeholders/ 
-SABNIS, O. (2018). Yelp Reviews Dataset. Www.kaggle.com. https://www.kaggle.com/datasets/omkarsabnis/yelpreviews-dataset 
+https://www.davidhodder.com/five-key-questions-to-ask-stakeholders/ <br>
+SABNIS, O. (2018). Yelp Reviews Dataset. Www.kaggle.com. https://www.kaggle.com/datasets/omkarsabnis/yelpreviews-dataset <br>
 STANFORD NETWORK ANALYSIS PROJECT. (2017). Amazon Fine Food Reviews. Www.kaggle.com. 
 https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews
 
