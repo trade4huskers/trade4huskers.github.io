@@ -14,6 +14,7 @@ testing dataset for prediction. Overall, our model achieved an accuracy score of
 there is only a 3% chance of error. With this score, we feel that the model is good, and will 
 successfully predict the sales. 
 
+
 # BUSINESS PROBLEM/HYPOTHESIS
 
 Walmart Inc. is an American multinational retail corporation that operates a chain of 
@@ -411,7 +412,6 @@ ax.set_ylabel('Weekly Avg Sales')
 ax.set_xticks(x)
 ax.set_xticklabels(labels)
 ax.legend()
-
 
 def autolabel(rects):
     """Attach a text label above each bar in *rects*, displaying its height."""
