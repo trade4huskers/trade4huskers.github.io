@@ -746,7 +746,7 @@ series forecasting, including predictors such as marketing expenditure and indus
 considerations before using this prediction for any reason. 
 
 # CONCLUSION
-For project 3, we as a team, for project 3, will have pulled 4 different datasets from Kaggle.com, all 
+We as a team, for project 3, will have pulled 4 different datasets from Kaggle.com, all 
 relating to Walmart store sales. We have used numerous libraries available in Python 
 programming language throughout this project, PyCharm Professional 2022.2.1 with Jupyter 
 Notebook being our IDE of choice. Seaborn and matplotlib have been the libraries utilized for 
@@ -757,20 +757,20 @@ forecasting sales.
 
 # REFERENCES
 E R, S. (2021, June 17). Random Forest | Introduction to Random Forest Algorithm. Analytics 
-Vidhya. https://www.analyticsvidhya.com/blog/2021/06/understanding-random-forest/ 
+Vidhya. https://www.analyticsvidhya.com/blog/2021/06/understanding-random-forest/<br><br>
 IBM. (n.d.). What is Random Forest? | IBM. Www.ibm.com. 
-https://www.ibm.com/topics/random-forest 
+https://www.ibm.com/topics/random-forest<br><br> 
 Rheude, J. (2020, July 15). Demand Forecasting: Types, Methods, and Examples. Red Stag 
-Fulfillment. https://redstagfulfillment.com/what-is-demand-forecasting/ 
+Fulfillment. https://redstagfulfillment.com/what-is-demand-forecasting/<br><br>
 Singh, R. (2020, November 3). Predicting Credit Card Approvals using ML Techniques. 
-Medium. https://medium.datadriveninvestor.com/predicting-credit-card-approvals-usingml-techniques-9cd8eaeb5b8c 
+Medium. https://medium.datadriveninvestor.com/predicting-credit-card-approvals-usingml-techniques-9cd8eaeb5b8c<br><br>
 Stakeholder Engagement. (n.d.). 2022 ESG. 
-https://corporate.walmart.com/esgreport/stakeholder-engagement 
+https://corporate.walmart.com/esgreport/stakeholder-engagement<br><br> 
 Team, G. L. (2020, February 14). How Machine Learning is Simplifying Sales Forecasting & 
 Increasing Accuracy. GreatLearning Blog: Free Resources What Matters to Shape Your 
-Career! https://www.mygreatlearning.com/blog/how-machine-learning-is-used-in-salesforecasting/ 
+Career! https://www.mygreatlearning.com/blog/how-machine-learning-is-used-in-salesforecasting/<br><br> 
 Thete, J. (2022, March 7). A Stochastic Model For Demand Forecating In Python. MLearning.ai. 
-https://medium.com/mlearning-ai/a-stochastic-model-for-demand-forecating-in-pythona1b568b80b94
+https://medium.com/mlearning-ai/a-stochastic-model-for-demand-forecating-in-pythona1b568b80b94<br><br>
 Walmart Sales Forecast. (n.d.). Www.kaggle.com. Retrieved May 18, 2023, from 
 https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast?select=train.csv
 
