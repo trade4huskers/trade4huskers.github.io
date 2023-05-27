@@ -763,14 +763,14 @@ https://www.ibm.com/topics/random-forest<br><br>
 Rheude, J. (2020, July 15). Demand Forecasting: Types, Methods, and Examples. Red Stag 
 Fulfillment. https://redstagfulfillment.com/what-is-demand-forecasting/<br><br>
 Singh, R. (2020, November 3). Predicting Credit Card Approvals using ML Techniques. 
-Medium. https://medium.datadriveninvestor.com/predicting-credit-card-approvals-usingml-techniques-9cd8eaeb5b8c<br><br>
+Medium. https://medium.datadriveninvestor.com/predicting-credit-card-approvals-using-ml-techniques-9cd8eaeb5b8c<br><br>
 Stakeholder Engagement. (n.d.). 2022 ESG. 
 https://corporate.walmart.com/esgreport/stakeholder-engagement<br><br> 
 Team, G. L. (2020, February 14). How Machine Learning is Simplifying Sales Forecasting & 
 Increasing Accuracy. GreatLearning Blog: Free Resources What Matters to Shape Your 
-Career! https://www.mygreatlearning.com/blog/how-machine-learning-is-used-in-salesforecasting/<br><br> 
+Career! https://www.mygreatlearning.com/blog/how-machine-learning-is-used-in-sales-forecasting/<br><br> 
 Thete, J. (2022, March 7). A Stochastic Model For Demand Forecating In Python. MLearning.ai. 
-https://medium.com/mlearning-ai/a-stochastic-model-for-demand-forecating-in-pythona1b568b80b94<br><br>
+https://medium.com/mlearning-ai/a-stochastic-model-for-demand-forecating-in-python-a1b568b80b94<br><br>
 Walmart Sales Forecast. (n.d.). Www.kaggle.com. Retrieved May 18, 2023, from 
 https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast?select=train.csv
 
