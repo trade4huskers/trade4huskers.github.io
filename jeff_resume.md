@@ -29,10 +29,16 @@ Analytical manager adept at problem solving complex business needs.  Critical th
 
 ## Education
 Bellevue University	               Bellevue, NE\
+Master of Science in Data Science
+- GPA 4.0
+- Member Omega Nu Lambda
+- Graduation Date - Anticipated Nov 2025\
+
+Bellevue University	               Bellevue, NE\
 Bachelor of Science in Data Science
 - GPA 4.0
 - Member Omega Nu Lambda
-- Graduation Date - Anticipated Nov 2023\
+- Graduation Date - Nov 2023\
 
 Metropolitan Community College	    Omaha, NE\
 Associate of Applied Science in Web & Database Programming                                                                    
@@ -43,11 +49,11 @@ Associate of Applied Science in Web & Database Programming
 
 ## Experience
 FUTU US Inc.\
-Palo Alto, CA\
+Jersey City, NJ\
 Director of Operations Control\
 Dec 2022 - Present
 
-- Lead team of reconciliation analyst
+- Build and maintain reconciliation suite
 - Ensure books and records are reconciled to depositories.
 - Develop new reconciliation reports using python and excel
 - Work with IT department on long term reporting needs
