@@ -28,19 +28,19 @@ Analytical manager adept at problem solving complex business needs.  Critical th
 - PLDC – Army Primary Leadership Development Course
 
 ## Education
-Bellevue University	               Bellevue, NE\
+Bellevue University	               Bellevue, NE
 Master of Science in Data Science
 - GPA 4.0
 - Member Omega Nu Lambda
 - Graduation Date - Anticipated Nov 2025\
 
-Bellevue University	               Bellevue, NE\
+Bellevue University	               Bellevue, NE
 Bachelor of Science in Data Science
 - GPA 4.0
 - Member Omega Nu Lambda
 - Graduation Date - Nov 2023\
 
-Metropolitan Community College	    Omaha, NE\
+Metropolitan Community College	    Omaha, NE
 Associate of Applied Science in Web & Database Programming                                                                    
 - Dean’s List x3
 - GPA 3.6
