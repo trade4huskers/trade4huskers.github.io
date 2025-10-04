@@ -3,20 +3,20 @@ title: "Predicting FX Trade Signals - Machine Learning"
 layout: post
 ---
 
-This project will attempt to predict buy and sell signals for the currency EURUSD (Euro dollar vs US dollar). I will work with four different datasets in the form of csv files. Each file represents 5 years of trading data from four currency pairs. The four pairs are EURUSD, AUDUSD, USDCAD, and USDJPY.
-
+This project will attempt to predict buy and sell signals for the currency EURUSD (Euro dollar vs US dollar). I will work with four different datasets in the form of csv files. Each file represents five years of trading data from four currency pairs. The four pairs are EURUSD, AUDUSD, USDCAD, and USDJPY. The data includes 5-years of the daily Open, Close, High and Low prices for each currency.  After transforming, merging, and feature engineering I will compare the outcome of three different machine learning models.
 
 
 # BUSINESS PROBLEM/HYPOTHESIS
-Baseball is a sport filled with many statistics.  However, there are so many statistics, how can someone easily know which one to use when finding the best players?  Our stakeholders could look at numerous statistics such as Runs, RBIs, Walks, and Strikeouts just to name a few, but still may not know which statistic(s) the best is to use for selecting players.  To help solve this problem, we will use data science and machine learning models to make predictions on the best MLB offensive baseball players based on their current statistics.
+According to the Federal Reserve Bank of New York (2024), “The foreign exchange (FX) market is the largest financial market in the world by trading volume, with average daily turnover of approximately $7.5 trillion”. The foreign exchange market comprises banks, forex dealers, commercial entities, central banks, investment management firms, hedge funds, retail forex dealers, and individual investors (Ganti 2024). I will use data science and machine learning models to make predictions on whether a buy or sell should take place on the EURUSD currency pair.
 
 Stakeholders include:
-- General Managers of MLB teams
-- Professional Sports Agents
-- Baseball Scouts
-- Fantasy Baseball Managers
-- Baseball Enthusiast
-- College coaches
+- Banks
+- Forex Dealers
+- Central Banks
+- Ivestment Management Firms
+- Hedge Funds
+- Retail Dealers
+- Individual Investors
 
 # METHODS/ANALYSIS
 The approach will be finding correlation with the data, which will result in a target that can be used for a supervised machine learning model.  We will begin by collecting our datasets, wrangling, and cleaning the data (formatting appropriately in Excel and Jupyter Notebook) using Pandas and Numpy in dataframes.  There will be multiple built in packages used such as correlation matrix function corr() and merging functions such as merge().  Data visualization will be used to help support our findings, and a machine learning model will be deployed.
