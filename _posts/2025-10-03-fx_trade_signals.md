@@ -39,7 +39,9 @@ Machine Learning
 - Gradient Boost Classifier
 
 # Visualizations
-![image]("https://github.com/user-attachments/assets/961bd1b2-4cd1-4608-a1ff-11bce52e3650)
+![image](images/fx_project_correlation.png)
+![image](images/fx_project_timeseries_combined.png)
+![image](images/fx_project_timeseries_subset.png)
 
 # The Code
 
@@ -313,37 +315,21 @@ print(f'Accuracy: {accuracy}')
 ```
 
 # RESULTS
-We first used the 2021 Team stats dataset to understand what target we might want to use for predicting players.  We found that Runs scored are an important factor in a team’s winning percentage.  We used a regression plot to help show how a team’s winning percentage is closely correlated with how many runs are scored.
-Next, we trained and tested a model using the 2021 Player stats dataset.  The XGB Regressor model is a supervised method and we used Runs as our target.  We also employed a Grid Search model that completed over 600 different tests to find the best parameters for the XGB Regressor.  We achieved a 90% accuracy score, which we felt was a good score to move forward with the model.  
-Finally, we made predictions using the 2022 team and player datasets.  We were able to validate that the model is predicting some of the best offensive players in the MLB.  We complete this with a Heat Map to show which statistics the model found to be important as it correlates to Runs scored by each player.
+I completed three machine learning (ML) predictive analysis models. The target was based on the EURUSD closing price. The dataset included the other three currencies (EURUSD, USDCAD, and USDJPY). The theory was to see if enough correlation exists between the four currency pairs to predict whether a buy or a sell should take place on the EURUSD currency.
+
+The outcome of the three models follows:
 
 ![image](https://github.com/trade4huskers/trade4huskers.github.io/assets/52306793/e9890f79-4e0d-42f7-91a6-32eeb09e7e67)
 
-![image](https://github.com/trade4huskers/trade4huskers.github.io/assets/52306793/1ce0077f-99dc-47a1-9243-cf1f4720e316)
+# ETHICAL CONSIDERATIONS
+The biggest ethical consideration is how to deal with trading decisions as they impact financial balance sheets. Whether a hedge fund, individual investor, stockbroker, or bank, trading the FX markets can lead to both profits and losses. Therefore, trading based on machine learning results could lead to unexpected losses. Ensuring the use of clean data and thorough model testing is important for producing unbiased outcome predictions.
 
-![image](https://github.com/trade4huskers/trade4huskers.github.io/assets/52306793/13058ff0-1286-41e6-9469-6ec01c9aa93f)
+# CONCLUSION & RECOMMENDATIONS
+The Gradient Boost model shows the most promise at 55%, but none of these models are ready for production use. More features could be added or subtracted to attempt a better score. While the score is not absolute, it should be considered. Generally, a score of 75% or higher would be recommended. However, other factors should be considered such as profitability, which could be more important than what percentage of times the model picks the correct buy and sell signals.
 
-# RECOMMENDATIONS/ETHICAL CONSIDERATIONS
-The topic of predicting baseball players should be given with care depending on the stakeholder and reason for making predictions.  While the data used to make these predictions is found on public websites and readily available, it is still human beings that we are making predictions on.  That should not be taken lightly, and in some cases could mean their livelihoods and how they put food on the table.  With that in mind, these predictions should be considered carefully, and we recommend this study should be combined with other models and considerations before using this prediction for monetary or job reasons.
-
-# CONCLUSION
-For project 2, we as a team used 4 different MLB datasets pulled from ESPN.com and MLB.com and applied a machine learning model to answer stakeholder questions of predicting the best offensive baseball players.  We use Team statistics to help us find a target of Runs.  We then can apply Runs per game as our target to the player dataset using a machine learning model called Xgboost Regressor, achieving a 90% accuracy score.  We train and test using the 2021 datasets, and then predict using the 2022 datasets.  Our final predictions are successfully validated by comparing runs per game to predicted runs per game.
+Further analysis of this model needs to be completed before it is production ready. First, add more currencies to the data frame to see if the score will improve. Second, additional feature engineering such as moving average (MA) could be added for potential score improvement. Third, an element of profit should be included to help guide the effectiveness of the model. 55% accuracy might be excellent if it results in large profits.
 
 # REFERENCES
-2021 baseball standings. MLB.com. (n.d.). Retrieved May 2, 2023, from https://www.mlb.com/standings/2021<br><br>
-2022 baseball standings. MLB.com. (n.d.). Retrieved May 2, 2023, from https://www.mlb.com/standings/2022<br><br>
-ESPN Internet Ventures. (n.d.). 2021 MLB player Batting Stats. ESPN. Retrieved May 2, 2023, from https://www.espn.com/mlb/stats/player/_/season/2021/seasontype/2 <br><br>
-ESPN Internet Ventures. (n.d.). 2021 MLB team batting stats. ESPN. Retrieved May 2, 2023, from https://www.espn.com/mlb/stats/team/_/season/2021/seasontype/2 <br><br>
-ESPN Internet Ventures. (n.d.). 2022 MLB player batting stats. ESPN. Retrieved May 2, 2023, from https://www.espn.com/mlb/stats/player/_/season/2022/seasontype/2 <br><br>
-ESPN Internet Ventures. (n.d.). 2022 MLB team batting postseason stats. ESPN. Retrieved May 2, 2023, from https://www.espn.com/mlb/stats/team/_/season/2022/seasontype/3 <br><br>
-Goodwin, K. (2021, July 19). A stakeholder interview checklist. Boxes and Arrows. Retrieved May 6, 2023, from https://boxesandarrows.com/a-stakeholder-interview-checklist/ <br><br>
-How to know if your machine learning model has good performance: Obviously ai. Data Science without Code. (n.d.). Retrieved May 2, 2023, from https://www.obviously.ai/post/machine-learning-model-performance#:~:text=Good%20accuracy%20in%20machine%20learning,also%20consistent%20with%20industry%20standards.<br><br>
-Python API reference. Python API Reference - xgboost 1.7.5 documentation. (n.d.). Retrieved May 5, 2023, from https://xgboost.readthedocs.io/en/stable/python/python_api.html <br><br>
-Sklearn.model_selection.GRIDSEARCHCV. scikit. (n.d.). Retrieved May 5, 2023, from https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html <br><br>
-Yin, T. (n.d.). Successful data science projects: What questions to ask? LinkedIn. Retrieved May 2, 2023, from https://www.linkedin.com/pulse/successful-data-science-projects-what-questions-ask-tiancheng-yin 
-
-# Video Link
-
-For more details about our project, please check out our video!
-<br/>
-[Project 2 - MLB Player Prediction](https://www.youtube.com/watch?v=oG7GaFo-j4U)
+FX Market Structure Conference. FEDERAL RESERVE BANK of NEW YORK. (2024, November 19). https://www.newyorkfed.org/newsevents/events/markets/2024/1119-2024 
+Ganti, A. (2024, September 5). Foreign Exchange Market: How It Works, history, and pros and cons. Investopedia. https://www.investopedia.com/terms/forex/f/foreign-exchange-markets.asp 
+Stock market, data updates, reports & news. Nasdaq. (n.d.). https://www.nasdaq.com/ 
