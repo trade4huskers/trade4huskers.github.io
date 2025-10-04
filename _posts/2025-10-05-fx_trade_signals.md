@@ -1,9 +1,10 @@
 ---
-title: "Predicting The Best MLB Offensive Players - Machine Learning"
+title: "Predicting FX Trade Signals - Machine Learning"
 layout: post
 ---
 
-For Project 2, we have chosen to predict the best MLB (Major League Baseball) offensive players using data from ESPN.com.  We are working with four dataset in the form of csv files, broken down by team statistics, player statistics, and seasons (2021 & 2022).  We also used MLB.com to incorporate a feature called ‘POST_SEASON’ in our Team csv files.  We first look at team stats from 2021 to help us determine that Runs are an important part of a team’s winning percentage.  We then use Runs as our target to train the 2021 player dataset.  Once our machine learning model is built with an acceptable score, we will predict using the 2022 datasets.  Overall, our model achieved a 90% accuracy score, and we can validate that our predictions for how many runs a player will score per game in 2022 appear to be accurate.  Therefore, we feel that this model is successful in predicting some of the best offensive players in the game.
+This project will attempt to predict buy and sell signals for the currency EURUSD (Euro dollar vs US dollar). I will work with four different datasets in the form of csv files. Each file represents 5 years of trading data from four currency pairs. The four pairs are EURUSD, AUDUSD, USDCAD, and USDJPY.
+
 
 
 # BUSINESS PROBLEM/HYPOTHESIS
