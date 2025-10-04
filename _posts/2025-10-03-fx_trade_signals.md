@@ -1,5 +1,5 @@
 ---
-title: "Predicting FX Trade Signals - Machine Learning"
+title: "Predicting FX Trade Signals - MSDS"
 layout: post
 ---
 
@@ -39,9 +39,9 @@ Machine Learning
 - Gradient Boost Classifier
 
 # Visualizations
-![image](images/fx_project_correlation.png)
-![image](images/fx_project_timeseries_combined.png)
-![image](images/fx_project_timeseries_subset.png)
+![image](https://raw.githubusercontent.com/trade4huskers/trade4huskers.github.io/master/images/fx_project_correlation.png)
+![image](https://raw.githubusercontent.com/trade4huskers/trade4huskers.github.io/master/images/fx_project_timeseries_combined.png)
+![image](https://raw.githubusercontent.com/trade4huskers/trade4huskers.github.io/master/images/fx_project_timeseries_subset.png)
 
 # The Code
 
@@ -319,7 +319,7 @@ I completed three machine learning (ML) predictive analysis models. The target w
 
 The outcome of the three models follows:
 
-![image](https://github.com/trade4huskers/trade4huskers.github.io/assets/52306793/e9890f79-4e0d-42f7-91a6-32eeb09e7e67)
+![image](https://raw.githubusercontent.com/trade4huskers/trade4huskers.github.io/master/images/fx_project_accuracy_results.png)
 
 # ETHICAL CONSIDERATIONS
 The biggest ethical consideration is how to deal with trading decisions as they impact financial balance sheets. Whether a hedge fund, individual investor, stockbroker, or bank, trading the FX markets can lead to both profits and losses. Therefore, trading based on machine learning results could lead to unexpected losses. Ensuring the use of clean data and thorough model testing is important for producing unbiased outcome predictions.
@@ -330,6 +330,8 @@ The Gradient Boost model shows the most promise at 55%, but none of these models
 Further analysis of this model needs to be completed before it is production ready. First, add more currencies to the data frame to see if the score will improve. Second, additional feature engineering such as moving average (MA) could be added for potential score improvement. Third, an element of profit should be included to help guide the effectiveness of the model. 55% accuracy might be excellent if it results in large profits.
 
 # REFERENCES
-FX Market Structure Conference. FEDERAL RESERVE BANK of NEW YORK. (2024, November 19). https://www.newyorkfed.org/newsevents/events/markets/2024/1119-2024 
-Ganti, A. (2024, September 5). Foreign Exchange Market: How It Works, history, and pros and cons. Investopedia. https://www.investopedia.com/terms/forex/f/foreign-exchange-markets.asp 
+FX Market Structure Conference. FEDERAL RESERVE BANK of NEW YORK. (2024, November 19). https://www.newyorkfed.org/newsevents/events/markets/2024/1119-2024
+
+Ganti, A. (2024, September 5). Foreign Exchange Market: How It Works, history, and pros and cons. Investopedia. https://www.investopedia.com/terms/forex/f/foreign-exchange-markets.asp
+
 Stock market, data updates, reports & news. Nasdaq. (n.d.). https://www.nasdaq.com/ 
