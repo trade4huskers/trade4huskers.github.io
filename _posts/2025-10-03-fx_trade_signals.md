@@ -46,6 +46,13 @@ Machine Learning
 # The Code
 
 ```python
+# Jeff Thomas
+# DSC680
+# Professor Amirfarrokh Iranitalab
+# Project 1
+# Created September 22, 2025
+# Updated September 27, 2025
+
 # Import all necessary libraries
 
 import pandas as pd
