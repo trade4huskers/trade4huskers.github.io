@@ -5,6 +5,7 @@ layout: post
 
 This project will use machine learning to create a new ranking system for FBS college football teams. The dataset comes from TeamRankings.com. Their website provides statical data for many different sports, including college football.
 
+
 # BUSINESS PROBLEM/HYPOTHESIS
 College Football rankings determine playoff eligibility, seeding, bowl assignments, and guide sports betters on team performance relative to opponents.
 According to Wayne Staats (2025) of ncaa.com, “There are many polls to keep track of during the college football season, from the AP Poll and College Football Playoff rankings in the FBS to the FCS and Division II polls.” In addition to the traditional polls, there are many private ranking systems such as ESPN’s College Power Index, and Team Ranking’s Predictive Rankings.
